@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+.flex_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+header {
+  padding: 20px 50px;
+}
+header button {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #356ead;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.main_section {
+  background: linear-gradient(
+    0deg,
+    #98c3e8 8.84%,
+    rgba(152, 195, 232, 0) 31.12%
+  );
+}
+.main_title {
+  font-size: 54px;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+  color: #1f3f68;
+}
+.main_prg {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1f3f68;
+  opacity: 0.6;
+}
+.main_btn {
+  background: #5a98d0;
+  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+  border-radius: 10px;
+  padding: 10px 40px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.second_title {
+  font-size: 24px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #316099;
+}
+.card {
+  width: 350px;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+.card img {
+  display: block;
+  width: 180px;
+  margin: 0 auto;
+}
+.card_title {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #1f3f68;
+  margin-top: 10px;
+}
+.card_btn {
+  background-color: transparent;
+  border: none;
+  color: #316099;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin-top: 15px;
+  gap: 20px;
+}
+.flex_box2 {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  justify-content: center;
+}
+.pt-50 {
+  padding-top: 50px;
+}
+.smart_home_box {
+  background-image: url("./img/smart_home_bg.png");
+  height: 380px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  text-align: right;
+  padding-top: 40px;
+  padding-right: 20px;
+}
+.smart_home_box {
+  margin-top: 80px;
+}
+.smart_home_box h2 {
+  color: #fff;
+}
+.smart_home_box p {
+  color: #fff;
+  opacity: 0.8;
+  margin-top: 10px;
+}
+.app_box {
+  margin-top: 100px;
+}
+.app_box div {
+  width: 43%;
+  height: 300px;
+  border-radius: 10px;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.app_box div h2 {
+  color: #fff;
+}
+.app_box div p {
+  color: #fff;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+.app_left {
+  background-image: url("./img/mask1.png");
+}
+.app_right {
+  background-image: url("./img/mask2.png");
+}
+.last_section_box {
+  background: #5a98d0;
+  border-radius: 200px 0px 0px 0px;
+  padding-top: 100px;
+  margin-top: 100px;
+}
+.last_section_box h2 {
+  color: #fff;
+}
+.last_section_box p {
+  color: #fff;
+  opacity: 0.8;
+  line-height: 30px;
+}
+.last_section_box table {
+  width: 100%;
+  margin-top: 50px;
+  color: #fff;
+  opacity: 0.8;
+}
+table {
+  border-collapse: collapse;
+}
+.last_section_box table td {
+  padding: 30px 0;
+  text-align: center;
+}
+.right_bottom_border {
+  border-right: 1px solid rgba(255, 255, 255, 0.8);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}
+.bottom_border {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}
+.right_border {
+  border-right: 1px solid rgba(255, 255, 255, 0.8);
+}
+.footer_team_box {
+  background: #316099;
+  border-radius: 0px 200px 0px 0px;
+  margin-top: 50px;
+  padding: 50px 0;
+}
+.line {
+  width: 90%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 70px 0;
+}
+.footer_flex h3 {
+  color: #fff;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer_flex {
+  display: flex;
+  gap: 150px;
+}
+.footer_flex h4 {
+  color: #fff;
+  margin-top: 10px;
+}
+.footer_flex ul {
+  margin-top: 40px;
+  list-style-type: none;
+}
+.footer_flex ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.footer_flex ul li a {
+  color: #fff;
+  opacity: 0.8;
+}
